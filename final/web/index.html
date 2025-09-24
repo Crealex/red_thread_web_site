@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Red Thread 42</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <div id="app" class="container">
+    <h1>Red Thread</h1>
+    <div id="auth"></div>
+    <div id="game" style="display:none">
+      <p id="info"></p>
+      <form id="form" autocomplete="off">
+        <input type="text" id="word" placeholder="Votre mot" required />
+        <button type="submit">Valider</button>
+      </form>
+      <div id="result"></div>
+    </div>
+    <div id="results"></div>
+  </div>
+  <script type="module" src="/main.js"></script>
+</body>
+</html>
